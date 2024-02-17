@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <!--Animation Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Title-->
+    <title style="color: white; font-weight:10000px; font-family:cursive;">HustersBay - Books Networking Community</title>
+    <link rel="icon" href="Title_Icon/infinity.png" type="image/x-icon">
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/dcacf079e9.js" crossorigin="anonymous"></script>
+    <!--Swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!--Style Sheet-->
+     <link rel="stylesheet" href="style.css">
+
+    
+  </head>
+  <body onload="myFunction()">
+    <!--Preloader-->
+    <span id="preloader"></span>
+   <!--front-page-container-->
+    <div class="container-fluid ">
+          
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg " id="navbar" >
+      <a class="navbar-brand text-white  " href="#" data-aos="fade-down">
+        <img src="../Front_Page/Title_Icon/infinity.png" class="navbar-brand ms-3 me-3 " style="width:35px ;">
+      </a>
+      <button class="navbar-toggler" type="button"   data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+          </svg>
+        
+      </button>
+    
+      <div class="collapse navbar-collapse "  id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active"  >
+            <a class="nav-link text-white shadow-none text-white" href="#"><b id="navbarbuttons" >Home</b> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item  " >
+            <a class="nav-link  shadow-none text-white"   href="../Search Engine Page/searchengine.html" role="button"  aria-expanded="false">
+              <b id="navbarbuttons"  >Books</b>
+            </a>
+            
+          </li>
+
+          <li class="nav-item  "  >
+            <a class="nav-link shadow-none text-white "  href="../Search Engine Page/searchengine.html" role="button" aria-expanded="false">
+              <b id="navbarbuttons">Notes</b>
+            </a>
+            
+          </li>
+        
+          <li class="nav-item " >
+            <a class="nav-link shadow-none text-white "  href="../Search Engine Page/searchengine.html"><b id="navbarbuttons" >Study Material</b> </a>
+          </li>
+
+          <li class="nav-item " >
+            <a class="nav-link shadow-none text-white "  href="../Search Engine Page/searchengine.html"><b id="navbarbuttons" >Novels</b> </a>
+          </li>
+        
+        </ul>
+
+        <ul class="navbar-nav ml-auto d-block p-2" >
+          
+          <li class="nav-item ">
+            <a href="../Login/loginpage.html"  class=" d-inline-block shadow-none text-white  "> <i id="navbaricons" class="fa-solid fa-user-plus"></i></a>
+            <a href="../Wishlist/wishlist.html" class=" shadow-none text-white" > <i id="navbaricons" class="fa-regular fa-heart"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--navbar-->
+
+    
+    <!--Header starts-->
+        <div  class="m-0 p-0" style="background-color: rgb(133, 97, 218);">
+          <div class="row text-center justify-content-between" >
+
+            <!--Header sideImage-->
+            <div class="col-md-6 col-lg-6 " data-aos="fade-left"><img src="Title_Icon/finaltitle.png" class="img-fluid d-none  d-sm-none d-md-block "  id="imgOfHeader" style="background-color: #8561da 38% 15%;">
+            </div>
+            <!--Header sideImage-->
+           
+            <!--Header sideText-->
+            <div class="col-md-6 col-lg-6 col-11 mt-5 " data-aos="fade-right">
+              <div class="row">
+                <div class="col-12 p-0 text-white justify-content-center"  >
+                  
+                  <H3 class=" m-1 p-0 " style="font-size: 20px;" >Hey Hustlers!</H3> 
+                  <h1 class=" w-100 m-2 p-2"style="font-size: 30px;" >Welcome To LNCT Books Community</h1>
+                  <p class=" w-100" style="font-size: 13px;" > Platform For Exchanging Secondhand Books Among Your Peers</p>
+                  <div class=" col-6 g-2 mx-auto">
+                    <button class="btn btn-warning text-white" style="font-size: 13px;"type="button" id="btn1">Add Your Book</button>
+                    <button class="btn btn-warning text-white" style="font-size: 13px;"type="button" id="btn2">Explore More</button>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="swiper mySwiper " >
+                  <div class="swiper-wrapper "  >
+                    <div class="swiper-slide" style="width:38%; height: 100px; margin: 0px; padding: 0px;"><img src="Books Images/book-10.png" ></div>
+                    <div class="swiper-slide" style="width:38%; height: 100px; margin: 0px; padding: 0px;"><img src="Books Images/book-9.png" ></div>
+                    <div class="swiper-slide" style="width:38%; height: 100px; margin: 0px; padding: 0px;"><img src="Books Images/book-8.png" ></div>
+                    <div class="swiper-slide" style="width:38%; height: 100px; margin: 0px; padding: 0px;"><img src="Books Images/book-7.png" ></div>
+                    <div class="swiper-slide" style="width:38%; height: 100px; margin: 0px; padding: 0px;"><img src="Books Images/book-6.png" ></div>
+                    <div class="swiper-slide" style="width:38%; height: 100px; margin: 0px; padding: 0px;"><img src="Books Images/book-5.png" ></div>
+                    <div class="swiper-slide" style="width:38%; height: 100px; margin: 0px; padding: 0px;"><img src="Books Images/book-4.png" ></div>
+                    <div class="swiper-slide" style="width:38%; height: 100px; margin: 0px; padding: 0px;"><img src="Books Images/book-3.png" ></div>
+                    <div class="swiper-slide" style="width:38%; height: 100px; margin: 0px; padding: 0px;"><img src="Books Images/book-2.png" ></div>
+                  </div>
+                  <img src="Books Images/stand.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+            <!--Header sidetext-->
+            
+          </div>
+        </div>
+         <!--Header ends-->
+        <div class="container-fluid">
+         <div class=" p-5 rounded m-0" data-aos="flip-up" >
+          <div class="row bg-dark  " id="aboutsection" >
+            <div class="col-md-12 col-12 justify-content-evenly" id="ftext">
+              <h1 class="text-warning p-3 text-center" >About Us</h1>
+              <p class="text-white w-100 p-2 text-center"><b>Do you have Books to Sell...?? </b><br> Don't worry we bring Customers to you within your Collage isn't it Exciting?? <br> Exchange Your Secondhand notes among your Peers And start Earning Part-time.</p>
+            </div>
+
+            <div class="row justify-content-evenly m-3 mb-5">
+
+              <div class="col-sm-5 mt-2 text-center">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning">Login As Consumer</h5>
+                    <p class="card-text">If you want some Study materials, Get in just one search among your collage campus</p>
+                    <a href="#" class="btn btn-warning">Explore</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-5 mt-2 text-center">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning">Login As Producer</h5>
+                    <p class="card-text">If Your have Books To Sell, We bring Customers to you within your collage campus.</p>
+                    <a href="#" class="btn btn-warning">Add Your Product</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> 
+          </div>
+        </div>
+    <!--Key Features-->
+    <div class="row ml-2 mr-2" id="keyfeature">
+     <div class="row justify-content-evenly m-4 p-4 ">
+          <div class="col-4 " data-aos="fade-left">
+            <img src="Langing Page/feature section/7140417_3497643.jpg" id="feature-img" class="img-fluid circle" alt="">
+          </div>
+          <div class="col-6 mt-5" id="ftext" data-aos="fade-left">
+            <h1 class="text-warning">1. Simple and Easy Way to Buy</h1>
+            <p class="text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia aperiam ullam quam labore quidem autem dignissimos quod nemo quas ipsum expedita delectus error suscipit ratione porro, asperiores non repudiandae cumque quos ducimus consequuntur. Fuga quos expedita dignissimos assumenda quod voluptatem possimus voluptatum? </p>
+          </div>
+      </div>
+      <div class="row justify-content-evenly m-4 p-4" data-aos="fade-right">
+           <div class="col-6 " id="ftext">
+               <h1 class=" text-warning">2.Contact Directly to Owner</h1>
+                <p class="text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia aperiam ullam quam labore quidem autem dignissimos quod nemo quas ipsum expedita delectus error suscipit ratione porro, asperiores non repudiandae cumque quos ducimus consequuntur. Fuga quos expedita dignissimos assumenda quod voluptatem possimus voluptatum? Rem inventore quam, quisquam ab illum, magni at quos exercitationem pariatur aperiam sapiente aliquid eius maxime quis iusto impedit mollitia tenetur? Obcaecati impedit .</p>
+            </div>
+            <div class="col-4">
+               <img src="Langing Page/feature section/12377263_4883685.jpg" id="feature-img"  class="img-fluid" alt="">
+            </div>
+      </div>
+      <div class="row justify-content-evenly m-4 p-4" data-aos="fade-left">
+        <div class="col-4">
+          <img src="Langing Page/feature section/9793220_4204968.jpg" id="feature-img" class="img-fluid" alt="">
+        </div>
+        <div class="col-6 " id="ftext">
+          <h1 class="text-warning ">3. Make Connections Online</h1>
+          <p class="text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia aperiam ullam quam labore quidem autem dignissimos quod nemo quas ipsum expedita delectus error suscipit ratione porro, asperiores non repudiandae cumque quos ducimus consequuntur. Fuga quos expedita dignissimos assumenda quod voluptatem possimus voluptatum? Rem inventore quam, quisquam ab illum, magni at quos exercitationem pariatur aperiam sapiente .</p>
+        </div>
+      </div>
+    </div>
+  <!--key featured ends-->
+</div>
+  
+  <!--revently Added Books Section-->
+    <!--heading-->
+  <div class="row" id="RecentlyAddedSection" data-aos="fade-left" >
+    <div class="row justify-content-evenly mt-5  g-2 rounded text-capitalize text-center mt-5 ms-3 me-3">
+      <h3 class="col-6 text-white text-center bordered p-2  bg-warning rounded">Recently Added Books</h3>
+    </div>
+    <!--heading-->
+
+    <!--book sliders-->
+    
+      <div class="row justify-content-center p-5" data-aos="fade-right">
+        <div class="swiper-container-1 swiper p-0 m-0" >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <a onclick="openimg()" href="../ProductDecription/ProductD.html" target="_blank" >
+               <div class="image">
+                    <img src="Books Images/book-9.png" >
+                </div>
+                <div class="content">
+                  <h3 class="price">$15.99 <span>$20.99</span></h3>
+                    <a href="../payment/payment-1.html" id="swiperbtn" class="btn btn-warning">add to cart</a>
+                    <a href="#" class="fas fa-heart" style=" text-decoration: none; padding: 2px ; margin-left: 10px; font-weight: 500;"></a>
+                </div>
+              </a>
+            </div>
+
+              <div class="swiper-slide box">
+                <a href="../ProductDecription/ProductD.html" target="_blank" >
+                  <div class="image">
+                       <img src="Books Images/book-2.png" >
+                   </div>
+                   <div class="content">
+                     <h3 class="price">$15.99 <span>$20.99</span></h3>
+                       <a href="../payment/PaymentPage.html" id="swiperbtn" class="btn btn-warning">add to cart</a>
+                       <a href="#" class="fas fa-heart" style=" text-decoration: none; padding: 2px ; margin-left: 10px; font-weight: 500;"></a>
+                   </div>
+                 </a>
+              </div>
+
+            <div class="swiper-slide box">
+              <a href="../ProductDecription/ProductD.html" target="_blank" >
+                <div class="image">
+                     <img src="Books Images/book-3.png" >
+                 </div>
+                 <div class="content">
+                   <h3 class="price">$15.99 <span>$20.99</span></h3>
+                     <a href="../payment/PaymentPage.html" id="swiperbtn" class="btn btn-warning">add to cart</a>
+                     <a href="#" class="fas fa-heart" style=" text-decoration: none; padding: 2px ; margin-left: 10px; font-weight: 500;"></a>
+                 </div>
+               </a>
+            </div>
+
+            <div class="swiper-slide box">
+              <a href="../ProductDecription/ProductD.html" target="_blank" >
+                <div class="image">
+                     <img src="Books Images/book-4.png" >
+                 </div>
+                 <div class="content">
+                   <h3 class="price">$15.99 <span>$20.99</span></h3>
+                     <a href="../payment/PaymentPage.html" id="swiperbtn" class="btn btn-warning">add to cart</a>
+                     <a href="#" class="fas fa-heart" style=" text-decoration: none; padding: 2px ; margin-left: 10px; font-weight: 500;"></a>
+                 </div>
+               </a>
+            </div>
+          
+            <div class="swiper-slide box">
+              <a href="../ProductDecription/ProductD.html" target="_blank" >
+                <div class="image">
+                     <img src="Books Images/book-5.png" >
+                 </div>
+                 <div class="content">
+                   <h3 class="price">$15.99 <span>$20.99</span></h3>
+                     <a href="../payment/PaymentPage.html" id="swiperbtn" class="btn btn-warning">add to cart</a>
+                     <a href="#" class="fas fa-heart" style=" text-decoration: none; padding: 2px ; margin-left: 10px; font-weight: 500;"></a>
+                 </div>
+               </a>
+            </div>
+
+            <div class="swiper-slide box">
+              <a href="../ProductDecription/ProductD.html" target="_blank" >
+                <div class="image">
+                     <img src="Books Images/book-6.png" >
+                 </div>
+                 <div class="content">
+                   <h3 class="price">$15.99 <span>$20.99</span></h3>
+                     <a href="../payment/PaymentPage.html" id="swiperbtn" class="btn btn-warning">add to cart</a>
+                     <a href="#" class="fas fa-heart" style=" text-decoration: none; padding: 2px ; margin-left: 10px; font-weight: 500;"></a>
+                 </div>
+               </a>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+         
+          </div>
+        </div>
+
+      </div>
+     
+  <!--revently Added Books Section-->
+
+   <!--About Section Starts-->
+   
+  
+
+  <!--About Section ends-->
+
+
+  <!--Customer Review Section Starts-->
+     
+  <section>
+
+    <div class="container-fluid bg-white p-5" >
+      <div class="mgb-40 padb-30 auto-invert line-b-4 align-center" data-aos="fade-down">
+          <h4 class="font-cond-l fg-accent lts-md mgb-10 text-waning" contenteditable="false">Not Yet Convinced?</h4>
+          <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false">Read Customer Reviews</h1>
+      </div>
+      <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm" >
+          <li data-aos="fade-down">
+            <img src="Books Images/pic-1.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+            <p class="fs-110 font-cond-l" contenteditable="false">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</p>
+            <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Martha Stewart</h5>
+            <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Business Woman - New York</small>
+          </li>
+          <li data-aos="fade-down">
+            <img src="Books Images/pic-2.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+            <p class="fs-110 font-cond-l" contenteditable="false">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</p>
+            <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Ariana Menage</h5>
+            <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Recording Artist - Los Angeles</small>
+          </li>
+          <li data-aos="fade-down">
+            <img src="Books Images/pic-3.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+            <p class="fs-110 font-cond-l" contenteditable="false">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</p>
+            <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Sean Carter</h5>
+            <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Fund Manager - Chicago</small>
+          </li>
+      </ul>
+    </div>
+
+  </section>
+  
+  <!--Customer Review Section Ends-->
+
+  <!--About Section Starts-->
+  
+  
+
+  <!--About Section ends-->
+
+ 
+
+ <!--footers starts here-->
+
+    <!-- Footer -->
+   <footer class=" text-center text-white" >
+      <!-- Grid container -->
+      <div class="container p-4" data-aos="zoom-in">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a id="socialmediaicons" class="facebook btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a id="socialmediaicons" class="twitter btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a id="socialmediaicons" class="google btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a id="socialmediaicons" class="instagram btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a id="socialmediaicons" class="linkedin btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+          <!-- Github -->
+          <a id="socialmediaicons" class="github btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Share your Feedback With us</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="text" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2">Your Feedback</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Submit
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row justify-content-evenly">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-capitalize">Course Books</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Engineering </a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Pharmacy</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">University</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">MBA/MCA</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-capitalize">Our Policies</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Buy On Rent</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Buy On Sell</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Add Your Product</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Recently Added Books</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-capitalize">Payment Options</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">UPI's</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Debit Cards</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Internet Banking</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="#">@LNCTBooksDipo</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!--footers ends here-->
+        
+  
+  </div>     
+  </div>
+      
+     
+     
+    
+    
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!---swiper javascipt-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var x=document.getElementById('login');
+      var y=document.getElementById('register');
+      var z=document.getElementById('btn');
+      function register()
+      {
+        x.style.left='-400px';
+        y.style.left='50px';
+        z.style.left='110px';
+      }
+      function login()
+      {
+        x.style.left='50px';
+        y.style.left='450px';
+        z.style.left='0px';
+      }
+    </script>
+    <script>
+          var modal = document.getElementById('login-form');
+          window.onclick = function(event) 
+          {
+              if (event.target == modal) 
+              {
+                  modal.style.display = "none";
+              }
+          }
+      </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+
+      var swiper1 = new Swiper(".swiper-container-1", {
+        
+        spaceBetween: 20,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints:{
+          480:{
+            slidesPerView:2,
+            slidesPerGroup: 1,
+          },
+          560:{
+            slidesPerView:2,
+            slidesPerGroup: 1,
+          },
+          900
+          :{
+            slidesPerView:3,
+            slidesPerGroup: 2,
+          },
+          1200:{
+            slidesPerView:5,
+            slidesPerGroup: 2,
+          },
+        },
+        autoplay: {
+          delay: 25000,
+          disableOnInteraction: true,
+        },
+      });
+
+    </script>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        offset: 100,
+        duration: 1000,
+    });
+
+
+    var preloader = document.getElementById("preloader");
+    function myFunction()
+    {
+      preloader.style.display="none";
+    }
+    </script>
+    
+  </body>
+</html>
